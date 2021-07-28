@@ -1,0 +1,107 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+:root {
+  --Dark-cyan: hsl(185, 75%, 39%);
+  --Very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --Dark-grayish-blue: hsl(227, 10%, 46%);
+  --Dark-gray: hsl(0, 0%, 59%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url("/images/bg-pattern-top.svg") top -50vh left -20vh no-repeat,
+    url("/images/bg-pattern-bottom.svg") bottom -56vh right -20vh no-repeat;
+  background-size: 110vh;
+  background-color: var(--Dark-cyan);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.innercontainer {
+  width: 25em;
+  height: 26em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(/images/bg-pattern-card.svg);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 15px;
+}
+.victory {
+  border-radius: 100%;
+  width: 7.5em;
+  border: 0.4rem solid white;
+  margin-top: 1.8em;
+}
+P {
+  font-weight: 700;
+  font-size: 1.4rem;
+  color: var(--Very-dark-desaturated-blue);
+}
+.age {
+  margin-left: 5px;
+  color: var(--Dark-gray);
+  font-weight: 400;
+}
+.city {
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: var(--Dark-gray);
+}
+#city {
+  margin-top: 0.5em;
+}
+.text {
+  margin-top: 1.4em;
+  text-align: center;
+}
+.list {
+  width: 100%;
+  position: relative;
+  top: 3em;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul li {
+  list-style-type: none;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1em;
+  color: var(--Very-dark-desaturated-blue);
+}
+.statheader {
+  display: block;
+  font-size: .8rem;
+  letter-spacing: 0.1rem;
+  color: var(--Dark-gray);
+}
+.line{
+ background-color: var(--Dark-gray);
+ height: 1px;
+ width: 100%;
+ position: relative;
+ top: 1.6rem;
+ opacity: 0.7;
+}
