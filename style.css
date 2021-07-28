@@ -23,8 +23,8 @@ body {
 .container {
   width: 100vw;
   height: 100vh;
-  background: url("/images/bg-pattern-top.svg") top -50vh left -20vh no-repeat,
-    url("/images/bg-pattern-bottom.svg") bottom -56vh right -20vh no-repeat;
+  background: url("./images/bg-pattern-top.svg") top -50vh left -20vh no-repeat,
+    url("./images/bg-pattern-bottom.svg") bottom -56vh right -20vh no-repeat;
   background-size: 110vh;
   background-color: var(--Dark-cyan);
   display: flex;
