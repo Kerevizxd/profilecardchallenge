@@ -39,7 +39,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url(/images/bg-pattern-card.svg);
+  background-image: url(./images/bg-pattern-card.svg);
   background-color: white;
   background-repeat: no-repeat;
   background-size: contain;
